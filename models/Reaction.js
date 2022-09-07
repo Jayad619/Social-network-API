@@ -4,8 +4,8 @@ const dateFormat = require('../utils/dateFormat');
 const reactionSchema = new Schema(
   {
     reactionId: {
-      type: Schema.Types.ObjectId,
-      default: new Schema.Types.ObjectId(),
+      type: Types.ObjectId,
+      default: new Types.ObjectId(),
     },
     reactionBody: {
       type: String,
@@ -29,7 +29,5 @@ const reactionSchema = new Schema(
     id: false,
   }
 );
-
-  //TODO: This will not be a model, but rather will be used as the reaction field's subdocument schema in the Thought model.
 
 module.exports = reactionSchema;
