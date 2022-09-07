@@ -97,7 +97,28 @@ const userController = {
             res.status(500).json({ message: "Failed to add new friend!", err });
           });
       },
-}
+
+      deleteFriend(req, res) {
+        User.findOneAndUpdate(
+          { _id: req.params.userId },
+          { $pull: { friends: req.params.friendId } },
+          { runValidators: true, new: true }
+        )
+        .then((friendDeleted) => {
+            if (!friendDeleted) {
+              res
+                .status(404)
+                .json({ message: "No such friend exists with that ID!" });
+              return;
+            }
+    
+            res.json({ message: "Friend has been deleted!", friendDeleted });
+          })
+          .catch((err) => {
+            res.status(500).json({ message: "Failed to delete friend!", err });
+          });
+      },
+};
 
 
 
