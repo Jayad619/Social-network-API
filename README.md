@@ -19,7 +19,16 @@ Given a social network API:
 ## Walk-through Videos
 
 ### GET, POST, PUT, DELETE Users
+https://drive.google.com/file/d/1ZkMy_AWFnCV6jF5lJ8_rr32fQq8NqEyq/view?usp=sharing
 
 ### GET, POST, PUT, DELETE Thoughts
+https://drive.google.com/file/d/1DHsq97TYAzo8Bk-X_nNuOytt0yNOaqsN/view?usp=sharing
 
 ### Push Thoughts to Users
+https://drive.google.com/file/d/1Gn6y2nZLXKqAyUjwozkAPdNuBsJ2UzUD/view?usp=sharing
+
+### Add/Delete friends
+https://drive.google.com/file/d/1SmhYQ_8J_uzDiHaqQaLaSPJklsmJEvtb/view?usp=sharing
+
+### Add/Delete reactions
+https://drive.google.com/file/d/15ufGjagwW5gWHW_E_B6k0H-Prdkf8nvv/view?usp=sharing
